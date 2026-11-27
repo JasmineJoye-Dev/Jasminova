@@ -1,23 +1,56 @@
 @import url('https://fonts.googleapis.com/css2?family=Boldonse&family=Bowlby+One&family=Google+Sans+Flex&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&family=Playwrite+CU+Guides&family=Playwrite+FR+Trad:wght@100..400&family=Playwrite+IN+Guides&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Special+Gothic+Condensed+One&family=Staatliches&display=swap');
- .navbar {
+
+.navbar {
   height: 20vh;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 30px;
+  padding: 0 30px
 }
+
 .navbar-brand {
   font-family: "Playwrite FR Trad", cursive;
-  font-weight:500;
-  font-size:20px;
-
+  font-weight: 500;
+  font-size: 20px;
 }
-.jasmi{
+
+.jasmi {
   color: rgb(170, 74, 110);
 }
 
+.navbar-toggler {
+  border: none !important;
+  box-shadow: none !important
+}
+.nav-item {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 15px;
+  font-weight: lighter;
+  letter-spacing: 2px;
+}
 
+.nav-link {
+  position: relative;
+  display: inline-block;
+}
 
+.nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background: rgb(48, 47, 47);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.4s ease;
+}
+
+.nav-link:hover::after,
+.nav-link.active::after {
+  transform: scaleX(1);
+}
 
 
 

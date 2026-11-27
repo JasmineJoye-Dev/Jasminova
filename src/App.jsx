@@ -6,8 +6,8 @@ function App() {
   return (
 <Navbar title={
   <>
-  <span class="jasmi">JASMI</span>
-    <span class="nova">NOVA</span>
+  <span className="jasmi">JASMI</span>
+    <span className="nova">NOVA</span>
     </>
 }/>
   )
