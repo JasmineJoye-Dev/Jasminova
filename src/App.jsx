@@ -4,7 +4,12 @@ import Navbar from './components/Navbar'
 
 function App() {
   return (
-<Navbar title="Jasminova"/>
+<Navbar title={
+  <>
+  <span class="jasmi">JASMI</span>
+    <span class="nova">NOVA</span>
+    </>
+}/>
   )
 }
 

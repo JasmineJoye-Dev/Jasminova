@@ -1,9 +1,21 @@
-.navbar{
-  height:20vh;
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&family=Bowlby+One&family=Google+Sans+Flex&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&family=Playwrite+CU+Guides&family=Playwrite+FR+Trad:wght@100..400&family=Playwrite+IN+Guides&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Special+Gothic+Condensed+One&family=Staatliches&display=swap');
+ .navbar {
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px;
 }
-.navbar-brand{
-   font-family: ;
+.navbar-brand {
+  font-family: "Playwrite FR Trad", cursive;
+  font-weight:500;
+  font-size:20px;
+
 }
+.jasmi{
+  color: rgb(170, 74, 110);
+}
+
 
 
 
