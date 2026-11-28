@@ -52,7 +52,7 @@ transition: transform 0.4s ease;
 
 .offcanvas-header .btn-close{
   box-shadow: none;
-filter: brightness(0) saturate(100%) invert(20%) sepia(54%) saturate(2567%) hue-rotate(297deg) brightness(97%) contrast(99%);
+  filter: brightness(0) saturate(100%) invert(20%) sepia(54%) saturate(2567%) hue-rotate(297deg) brightness(97%) contrast(99%);
   font-size: 18px;
 
 }
