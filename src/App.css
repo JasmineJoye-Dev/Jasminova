@@ -50,7 +50,12 @@ transition: transform 0.4s ease;
   transform:scaleX(1);
 }
 
+.offcanvas-header .btn-close{
+  box-shadow: none;
+filter: brightness(0) saturate(100%) invert(20%) sepia(54%) saturate(2567%) hue-rotate(297deg) brightness(97%) contrast(99%);
+  font-size: 18px;
 
+}
 
 
 
@@ -65,11 +70,10 @@ transition: transform 0.4s ease;
 /* .counter {
   font-size: 16px;
   padding: 5px 10px;
-  border-radius: 5px;
-  color: var(--accent);
+  border-radcolor: var(--accent);
   background: var(--accent-bg);
   border: 2px solid transparent;
-  transition: border-color 0.3s;
+  transiticolor 0.3s;
   margin-bottom: 24px;
 
   &:hover {
